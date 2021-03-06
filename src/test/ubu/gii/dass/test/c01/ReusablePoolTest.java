@@ -1,6 +1,3 @@
-/**
- * 
- */
 package ubu.gii.dass.test.c01;
 
 import static org.junit.Assert.*;
@@ -14,11 +11,7 @@ import ubu.gii.dass.c01.NotFreeInstanceException;
 import ubu.gii.dass.c01.Reusable;
 import ubu.gii.dass.c01.ReusablePool;
 
-/**
- * @author Elsa Tolin Carrasco
- * @author Humberto Marijuán Santamaría
- * @author Roberto Arasti Blanco
- */
+
 public class ReusablePoolTest {
 	
 	ReusablePool contenedor = null;
@@ -63,7 +56,7 @@ public class ReusablePoolTest {
 			r2 = contenedor.acquireReusable();
 			assertNotNull(r2);
 		}catch(NotFreeInstanceException e1) {
-			fail("Fallo por la Excepción NotFreeInstanceException");
+			fail("Fallo por la Excepcion NotFreeInstanceException");
 		}		
 		try {
 			r3 = contenedor.acquireReusable();
@@ -88,9 +81,9 @@ public class ReusablePoolTest {
 			assertEquals(r1util, r2.util());
 			contenedor.releaseReusable(r2);
 		}catch(NotFreeInstanceException e1) {
-			fail("Fallo por la Excepción NotFreeInstanceException");
+			fail("Fallo por la Excepcion NotFreeInstanceException");
 		}catch(DuplicatedInstanceException e2) {
-			fail("Fallo por la Excepción DuplicatedInstanceException");
+			fail("Fallo por la Excepcion DuplicatedInstanceException");
 		}
 		try {
 			contenedor.releaseReusable(r1); 
