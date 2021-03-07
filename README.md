@@ -40,7 +40,9 @@ En el enlace vemos que es del 83,33%, que es un porcentaje razonable.
 
 ¿Cuál es el esfuerzo invertido en realizar la actividad?:
 
-A partir de los tiempos de llamada que se registran en Discord más algo de tiempo de clase habremos estado 10 horas trabajando en equipo.
+El desarrollo del código de las pruebas llevó unas 3-4 horas. El aprendizaje de las herramientas y el uso de estas llevó 3 horas.
+La elaboración del informe y el readme llevó unas 2-3 horas. 
+En nuestro caso surgió un problema con nuestro repositorio, la resolución de este llevó unas 4 horas. En total el tiempo de trabajo varía entre las 12 y 14 horas.
 
 ¿Cuál es el número de fallos encontrados en el código?:
 
