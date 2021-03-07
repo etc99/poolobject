@@ -24,7 +24,26 @@ relacionados con conjuntos de pruebas de software
 prueba del software
 
 Cuestiones:
-¿Se ha realizado trabajo en equipo?
-¿Tiene calidad el conjunto de pruebas disponibles?
-¿Cuál es el esfuerzo invertido en realizar la actividad?
-¿Cuál es el número de fallos encontrados en el código?
+¿Se ha realizado trabajo en equipo?:
+
+Si, al principio, miramos entre todos el código inicial para comprenderlo,
+Elsa y Humberto se encargaron de los test y Roberto se encargó de la documentación.
+Se pueden ver las aportaciones que ha hecho cada uno en el link siguiente:
+https://github.com/etc99/poolobject/pulse
+
+¿Tiene calidad el conjunto de pruebas disponibles?:
+
+Una métrica de la calidad es la "Complexity"(el porcentaje de las rutas posibles de ejecución del código que recorre el test) 
+https://app.codecov.io/gh/etc99/poolobject
+
+En el enlace vemos que es del 83,33%, que es un porcentaje razonable.
+
+¿Cuál es el esfuerzo invertido en realizar la actividad?:
+
+A partir de los tiempos de llamada que se registran en Discord más algo de tiempo de clase habremos estado 10 horas trabajando en equipo.
+
+¿Cuál es el número de fallos encontrados en el código?:
+
+No hemos encontrado ningún fallo en el código.
+En el último commit pasaron todos los test: 
+https://travis-ci.org/github/etc99/poolobject
